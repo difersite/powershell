@@ -1,0 +1,2 @@
+# powershell
+Configuraciones de pwsh
