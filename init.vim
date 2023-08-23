@@ -34,6 +34,8 @@ set cursorcolumn			"Highlight column line
 " CONFIGURACION DEL TEMA
 set termguicolors
 " colorscheme onedark
+highlight ColoColumn ctermbg=0 guibg=lightgrey
+
 "===============================================================================
 
 ":::instalacion de plugins:::
