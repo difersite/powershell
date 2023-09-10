@@ -18,6 +18,15 @@ https://ohmyposh.dev/
 ```
 winget install JanDeDobbeleer.OhMyPosh -s winget
 ```
+Antes de aplicar los cambios y ejecutar oh-my-posh agregamos las fuentes
+**Instalacion de fuentes**
+Este comando debe ser instalado como administrador
+```
+oh-my-posh font install
+```
+Y seleccionar la fuente, por ejemplo FiraCode
+Luego se debe configurar, pero esto no como administrador por lo que se debe reiniciar e ir a setting/Perfil/Apariencia y en fuentes cambiar a firacode mono (mono es que cada caracter ocupa la misma distancia)
+**Ejecutar Oh-my-Posh**
 ```
 oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH\jandedobbeleer.omp.json"
 ```
@@ -26,14 +35,18 @@ esto arroja un comando que se debe ejecutar que incluye el tema que se puede edi
 (@(& 'C:/Users/dferruzr/AppData/Local/Programs/oh-my-posh/bin/oh-my-posh.exe' init pwsh --config='C:\Users\dferruzr\AppData\Local\Programs\oh-my-posh\themes\jandedobbeleer.omp.json' --print) -join "`n") | Invoke-Expression
 ```
 En este caso es jandedobbleer
-
-**Instalacion de fuentes**
-Este comando debe ser instalado como administrador
+````
+Get-PoshThemes
 ```
-oh-my-posh font install
+Y seleccionar el tema, en mi caso night-owl (con control presionado sobre el nombre se abre la configuracion en VSCode)
 ```
-Y seleccionar la fuente, por ejemplo FiraCode
-Luego se debe configurar, pero esto no como administrador por lo que se debe reiniciar e ir a setting/Perfil/Apariencia y en fuentes cambiar a firacode mono (mono es que cada caracter ocupa la misma distancia)
+(@(& 'C:/Users/dferruzr/AppData/Local/Programs/oh-my-posh/bin/oh-my-posh.exe' init pwsh --config='C:\Users\dferruzr\AppData\Local\Programs\oh-my-posh\themes\night-owl.omp.json' --print) -join "`n") | Invoke-Expression
+```
+Todo esto debe ser incluido en $Profile, pero el archivo $profile.ps1 deber estar creado previamente para eso ejecutar
+```
+New-Item -Path $PROFILE -Type File -Force
+```
+Con esto esta creado $Profile y editamos con nvim o cualquier editor y ponemos la configuracion gruadada antes
 
 - lf
 - nvim
