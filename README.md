@@ -5,6 +5,11 @@ Actualizacion de Powershell, instalando desde MS Store Powerwhell
 ## Configuraciones en PowerShell (pwsh)
 Foco en Aplicaciones
 - Terminal
+- Oh-my-poh
+- lf
+- nvim
+
+### Terminal
 Configuraciones base, en setup, en inicio. Perfil predeterminado: PowerShell y Aplicacion de Terminal: Terminal Windows.
 Luego, en combinacion de colores, ir directamente a las definiciones del JSON y editar el archivo
 Incluir snazzy https://github.com/Richienb/windows-terminal-snazzy/blob/main/snazzy.json
@@ -35,7 +40,7 @@ esto arroja un comando que se debe ejecutar que incluye el tema que se puede edi
 (@(& 'C:/Users/dferruzr/AppData/Local/Programs/oh-my-posh/bin/oh-my-posh.exe' init pwsh --config='C:\Users\dferruzr\AppData\Local\Programs\oh-my-posh\themes\jandedobbeleer.omp.json' --print) -join "`n") | Invoke-Expression
 ```
 En este caso es jandedobbleer
-````
+```
 Get-PoshThemes
 ```
 Y seleccionar el tema, en mi caso night-owl (con control presionado sobre el nombre se abre la configuracion en VSCode)
