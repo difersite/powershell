@@ -18,7 +18,9 @@ https://ohmyposh.dev/
 ```
 winget install JanDeDobbeleer.OhMyPosh -s winget
 ```
+```
 oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH\jandedobbeleer.omp.json"
+```
 esto arroja un comando que se debe ejecutar que incluye el tema que se puede editar segun gusto
 ```
 (@(& 'C:/Users/dferruzr/AppData/Local/Programs/oh-my-posh/bin/oh-my-posh.exe' init pwsh --config='C:\Users\dferruzr\AppData\Local\Programs\oh-my-posh\themes\jandedobbeleer.omp.json' --print) -join "`n") | Invoke-Expression
@@ -41,6 +43,6 @@ Alias en $PROFILE
 
 **RUTAS**
 
-**REFERENCIAS**
+**REFERENCIAS** /n
 Agradecimientos a Nicolas {hola mundo} 
 https://www.youtube.com/watch?v=6SGIFVJ5Izs&t=923s
