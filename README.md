@@ -53,8 +53,22 @@ New-Item -Path $PROFILE -Type File -Force
 ```
 Con esto esta creado $Profile y editamos con nvim o cualquier editor y ponemos la configuracion gruadada antes
 
-- lf
-- nvim
+** Mostrar Icons**
+Mostramos 
+```
+install-Module -Name Terminal-Icons -Repository PSGallery
+```
+y aplicamos
+```
+Import-Module Terminal-Icons
+```
+Este import lo debemos agregar a $Profile
+
+Luego incluimos el autocompletar con el historial
+```
+Set-PSReadLineOption -PredictionViewStyle ListView
+```
+Lo cual tambien debe ser agregado a $Profile
 
 Configuraciones de pwsh
 Alias en $PROFILE
