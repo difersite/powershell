@@ -81,7 +81,7 @@ https://github.com/mosajjal/bard-cli
 **RUTAS**
 
 **REFERENCIAS**  
-Agradecimientos a Nicolas {hola mundo}  
-https://www.youtube.com/watch?v=6SGIFVJ5Izs&t=923s 
+Agradecimientos a Nicolas {hola mundo}    
+https://www.youtube.com/watch?v=6SGIFVJ5Izs&t=923s   
 Bard: https://github.com/mosajjal/bard-cli 
 https://github.com/mosajjal/bard-cli
