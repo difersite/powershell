@@ -74,14 +74,14 @@ Lo cual tambien debe ser agregado a $Profile
 Configuraciones de pwsh
 Alias en $PROFILE
 
-**Instalacion de bart IA google**
+**Instalacion de bart IA google** 
 Seguir la instrucciones de  
 https://github.com/mosajjal/bard-cli
 
 **RUTAS**
 
-**REFERENCIAS** /n
+**REFERENCIAS**  
 Agradecimientos a Nicolas {hola mundo}  
-https://www.youtube.com/watch?v=6SGIFVJ5Izs&t=923s
+https://www.youtube.com/watch?v=6SGIFVJ5Izs&t=923s 
 Bard: https://github.com/mosajjal/bard-cli 
 https://github.com/mosajjal/bard-cli
