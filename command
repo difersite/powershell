@@ -1,3 +1,8 @@
+##
+## Iniciar ISE
+## powershell ise
+##
+
 $urls = Get-Content -path C:\Users\dferr\OneDrive\Documents\Z9-TEMP\urls
 $urls | ForEach-Object {
     Write-Host "hostname: $($_)" -BackgroundColor White -ForegroundColor Black
