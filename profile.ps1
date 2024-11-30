@@ -133,6 +133,7 @@ function reqCloude {
 
 	# Definición de la variable de token
 	$CAI_TOKEN="API Token de Calypso"
+ 	$CAI_TOKEN="MDE5MzZhNjctNTM0Ny03MDE2LWE1OWItZDhkM2JkYTJiNjU2/Cb1tePmMHS7y0vkCjMpi6Fw4gHm6ihdkPqHCQ3YCuNpMFWqDQpYhjWm2xMviau70C27hoBLoxKjA2dHfvLSA"
  
 	# Función para enviar solicitud a la API
 	function Send-CalypsoRequest {
